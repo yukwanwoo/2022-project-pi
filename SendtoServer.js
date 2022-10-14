@@ -12,7 +12,7 @@ function participation(){
     const c = csensor.read();
     const raw = translate(a,b,c);
         const options = {
-            uri: 'http://141.164.35.18:8080/pi',
+            uri: 'your server uri',
             method: 'post',
             body: {
                 imei:'73ff34fce1',
