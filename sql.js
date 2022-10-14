@@ -5,8 +5,8 @@ class sql {
         this.connection = new MySql({
             host: "localhost",
             user: "root",
-            password: "gachon654321",
-            database: "whdvm",
+            password: "your pass word",
+            database: "your table name",
         });
         this.times = -10;
         this.tablename=tablename
