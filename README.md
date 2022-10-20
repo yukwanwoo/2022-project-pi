@@ -8,14 +8,14 @@ Raspberry pi 4 model B에서 동작하며 라즈베리 파이 OS위에서 노드
 
 리눅스 커널 버전은 5.10 노드버전은 v8.17.0을 사용합니다.
 
-# asensor.js
+# /sensors/topSensor.js
 i2c 1번 센서 측정 소스파일로 0x69번 주소의 mpu9250값을 읽어와 mysql에 저장합니다.
 측정 주기는 10ms
-# bsensor.js
+# /sensors/midSensor.js
 i2c 0번 센서 측정 소스파일로 0x68번 주소의 mpu9250값을 읽어와 mysql에 저장합니다.
 측정 주기는 10ms
-# csensor.js
-i2c 1번 센서 측정 소스파일로 0x69번 주소의 mpu9250값을 읽어와 mysql에 저장합니다.
+# /sensors/lowSensor.js
+i2c 0번 센서 측정 소스파일로 0x69번 주소의 mpu9250값을 읽어와 mysql에 저장합니다.
 측정 주기는 10ms
 # SendtoServer.js
 서버로 측정값을 전송합니다.
