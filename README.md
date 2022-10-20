@@ -2,6 +2,12 @@
 
 2022 종프 파이 소스코드입니다.
 
+사용법 : 
+node /sensors/topSensor.js
+node /sensors/midSensor.js
+node /sensors/lowSensor.js
+node SendtoServer.js
+
 mpu9250 3개에서 측정한 센서를 Rest API로 보거나 서버로 보낼 수 있습니다.
 
 Raspberry pi 4 model B에서 동작하며 라즈베리 파이 OS위에서 노드를 사용합니다.
