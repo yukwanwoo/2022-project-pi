@@ -3,10 +3,10 @@
 2022 종프 파이 소스코드입니다.
 
 사용법 : 
-node /sensors/topSensor.js
-node /sensors/midSensor.js
-node /sensors/lowSensor.js
-node SendtoServer.js
+ node /sensors/topSensor.js
+ node /sensors/midSensor.js
+ node /sensors/lowSensor.js
+ node SendtoServer.js
 
 mpu9250 3개에서 측정한 센서를 Rest API로 보거나 서버로 보낼 수 있습니다.
 
