@@ -1,6 +1,6 @@
 #프로젝트 설명
 
-https://user-images.githubusercontent.com/46319374/192773251-5bc993ba-b498-42ce-a3b3-899dcba3efc3.jpg
+![image](https://user-images.githubusercontent.com/69711779/197425307-4d93447c-a91d-4419-83cc-a73a59ec28b2.png)
 
 본 프로젝트의 목표는 척추 부근에 센서를 달아 얻는 데이터를 통해 사용자의 현재 허리 상태를 측정하고 이를 처리하여 사용자가 현재 자신의 허리 자세를 인지하고 올바른 자세를 취할 수 있게 하는 것입니다. 본 레포지토리에서는 라즈베리리 파이만 다룹니다.
 
