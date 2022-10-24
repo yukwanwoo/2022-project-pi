@@ -3,11 +3,11 @@
 2022 종프 파이 소스코드입니다.
 
 사용법 : 
- node /sensors/topSensor.js
+ node sensors/topSensor.js
  
- node /sensors/midSensor.js
+ node sensors/midSensor.js
  
- node /sensors/lowSensor.js
+ node sensors/lowSensor.js
  
  node SendtoServer.js
 
